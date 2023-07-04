@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        img{
+            width: 100px;
+            height: 100px;
+           
+        }
+        .main{
+            position: relative;
+        }
+     
+        video{
+            border: 5px solid grey;
+            height: 150px;
+            width: 300px;
+            
+        }
+        #jak{
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            opacity: 0;
+            transition-duration:-1s ;
+        }
+        #jak:hover{
+            opacity: 1;
+        }
+    </style>
+    <title>Video and image</title>
+</head>
+<body>
+    <div class="main">
+            <img src="a.jpeg"  width="100px" height="100px"id="jak" alt="this image is not loaded.">
+    <div>
+    <img src="b.jpeg" alt=""></div>
+
+    </div>
+
+    <hr>
+    <video src="video.mp4"  autoplay muted loop controls alt="this image is not loaded"></video>
+
+</body>
+
+</html>

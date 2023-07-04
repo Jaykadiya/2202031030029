@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            color: white;
+            background-color: black;
+        }
+    </style>
+    <title>Operators</title>
+</head>
+<body>
+    <h1>Types  of Operator</h1>
+    <h2>Arithmetic Operator:</h2>
+    <script>
+         let a=15;
+         let b=10;
+         var c;
+         document.write("Addition is:",a+b,"<br>");
+         document.write("Substraction is:",a-b,"<br>");
+         document.write("Multiplication is:",a*b,"<br>");
+         document.write("Division is:",a/b,"<br>");
+         document.write("Modulus is:",a%b,"<br>");
+    </script>
+       <h2>Assignment Operator:</h2><br>
+       <script>
+        let d=15;
+        document.write("Addition equal to is:",a+=5,"<br>");
+        document.write("Substraction equal to is:",a-=5,"<br>");
+        document.write("Multiplication equal to is:",a*=5,"<br>");
+        document.write("Division eual to is:",a/=b,"<br>");
+        document.write("Modulus equal to is :",a%=5,"<br>");
+   </script>
+   <h2>Comparision Operator:</h2><br>
+   <script>
+    let e=15;
+    let f=10
+    document.write("Double equal to is:",e==2,"<br>");
+    document.write("Greater than  is:",e>f,"<br>");
+    document.write("Less than is:",f<e,"<br>");
+    document.write("Greater than equal to is:",e>=f,"<br>");
+    document.write("Less than equal to is :",a<=5,"<br>");
+</script>
+    <h2> Logical Operator:</h2>
+    <p id="jay"></p>
+    <p id="sa"></p>
+    <p id="nj"></p>
+    <script>
+      
+    let g=25;
+    let h=10;
+    document.getElementById("jay").innerHTML=(g == 25 &&h == 10);
+    document.getElementById("sa").innerHTML=(g == 25 ||h == 5);
+    document.getElementById("nj").innerHTML=!(g===h);
+</script>
+
+    <h2>Bitwise Operator:</h2>
+    <p id="demo"></p>
+    <p id="jk"></p>
+ <script>
+   document.getElementById("demo").innerHTML = 5 & 1;
+   document.getElementById("jk").innerHTML=5|2;
+ 
+</script>
+
+    <h2>Type  Of Operator</h2>
+    <p id="pk"></p>
+<script>
+   document.getElementById("pk").innerHTML = 
+"'John' is " + typeof "John";
+</script>
+
+
+
+</body>
+</html>
