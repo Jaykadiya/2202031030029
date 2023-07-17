@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#p1").mouseup(function(){
+    alert("Mouse up over  my name!");
+    $(this).css("background-color","yellow");
+    $(this).css("text-align","center");
+    $(this).css("color","black");
+  });
+});
+</script>
+</head>
+<body>
+  <h2>mouseup event using jquery</h2>
+
+<p id="p1" style="text-align: center;">JAY</p>
+
+</body>
+</html>
