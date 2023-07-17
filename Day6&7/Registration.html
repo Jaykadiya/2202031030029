@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+ 
+    <title>Registration page</title>
+    <style>
+    body{
+        background-color: rgb(240, 241, 241);
+        color: white;
+        background-image: url(bg.jpg) ;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    label{
+        font-size: x-large;
+        text-align: center;
+        color: white;
+       
+    }
+    input{
+        font-size: x-large;
+       
+    }
+    a{
+        color:black;
+    
+      
+    }
+
+    form{
+        color: white;
+        text-align: center;
+        border: 5px solid black;
+        margin: 200px;
+        background-color:black;
+        border: 5px dotted white;
+        border-radius: 15px;
+    }
+    h2{
+        color: white;
+        
+    }
+    </style>
+<body>
+ 
+
+              <form action="Login.html">
+                <label>SignUp</label><br><br>
+                <i class="fa-solid fa-user"></i>
+                <label>Name</label>
+                <input type="text" id="txtFirstName" placeholder="Enter Your Name" required><br><br>
+                     
+                              
+                       <i class="fa-solid fa-envelope"></i>
+                       <label>Email</label>
+                        <input type="email" placeholder="Email" id="Email" required><br><br>
+                   
+                        
+                  
+                    <i class="fa fa-mars-double"></i>
+                    <label>Gender</label>
+                    <input type="radio" name="gender" id="Gender" value="Male">Male
+                    <input type="radio" name="gender" id="Gender" value="Female">Female
+                    <input type="radio" name="gender" id="Gender" value="Others">Male<br><br>
+
+                    <i class="fa fa-phone"></i>
+                    <label>Phone No:</label>
+                    <input type="tel" minlength="10" placeholder="Enter your mobile number"  maxlength="10"
+                    required><br><br>
+                       
+                    <i class="fa-regular fa-calendar-days"></i>
+                        <label>Date of Birth</label>
+                        <input type="date" id="DOB" required><br><br>
+                   
+                        <i class="fa-solid fa-code-branch"></i>
+                        <label>Select your Stream:</label>
+                   <select>
+                    <option>Science</option>
+                    <option>Commerce</option>
+                    <option>Arts</option>
+                   </select><br><br>
+                       
+                   <i class="fa-solid fa-eye"></i>
+                        <label   >Password</label>
+                    
+            
+                        <input type="password" id="Password" placeholder="Password" required><br><br>
+                        <i class="fa-solid fa-eye"></i>
+                        <label>Confirm Password</label>
+                   
+                        <input type="password" id="CPassword" placeholder="Confirm Password" required><br><br>
+                   
+                    <i class="fa fa-map-marker"></i>
+                        <label>Address</label>
+                   
+                        <textarea id="Address" cols="30" rows="5" required></textarea><br><br>
+                        <i class="fa fa-map-marker"></i>
+                        <label>Pincode</label>
+                   
+                        <input type="tel" id="Pincode" placeholder="Pincode" maxlength="6" required><br><br>
+                   
+                    
+                        <input type="checkbox" id="T&C" required>
+                        <label>Agree all T&C?</label>
+                   
+                        <br><br>
+                        <input type="submit">
+                        <input type="reset">
+                        <br>
+                        <h2>Already have an Account? </h2>
+                        <a href="Login.html" style="font-size: 25px; border: 5px solid white; border-radius: 10px; background-color: white;" >SignIn</a>
+                        <br><br>
+                 
+    
+
+        
+    </form>
+</body>
+</html>
