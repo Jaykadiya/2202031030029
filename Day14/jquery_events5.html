@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $(".p1").mousedown(function(){
+    alert("Mouse down over my name!");
+    $(this).css("background-color","pink");
+    $(this).css("text-align","center");
+    $(this).css("color","white");
+    $(this).css("font-size","40px");
+  });
+});
+</script>
+</head>
+<body>
+<h2>mousedown event using jquery</h2>
+<p class="p1" style="text-align: center;">Jay</p>
+
+</body>
+</html>
