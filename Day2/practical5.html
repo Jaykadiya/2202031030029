@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style> 
+    
+    body{
+        background-color: crimson;
+    }
+       label{
+           color: white;
+           background-color: tomato;
+           font-family: 'Times New Roman', Times, serif;
+           font-weight: 300;
+           font-style: bold;
+           font-size: 30px;
+           margin-left: 10px;
+   
+       }
+        input{
+            background-color: peachpuff;
+            color: black;
+            font-size: 25px;
+            margin-left: 10px;
+            font-weight: 300;
+            font-family: 'Times New Roman', Times, serif;
+       
+        }
+        h1{
+            font-size: 35px;
+            background-color: chartreuse;
+            text-align: center;
+            color: chocolate;
+        }
+        
+        </style>
+    <title>CSS Types</title>
+  
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form style="background-color: rgb(50, 117, 205);">
+        <label>First Name:</label>
+        <input type="text" placeholder="Enter your first name" required>
+        <br><br>
+        <label>Last Name:</label>
+        <input type="text" placeholder="Enter your last name" required>
+        <br><br>
+        <label>Email ID:</label>
+        <input type="email" placeholder="Enter your email id" required>
+        <br><br>
+        <label>Mobile No:</label>
+        <input type="tel" placeholder="Enter your mobile no " required maxlength="10">
+        <br><br>
+        <label>Gender:</label>
+        <input type="radio" name="gender" ><b>Male</b>
+        <input type="radio" name="gender" ><b>Female</b>
+        <input type="radio" name="gender"  ><b>Others</b>
+        <br><br>
+        <label>Choose your Field:</label><br>
+        <input type="checkbox" style="font-size: 25px;" name="Commerce" ><b>Commerce</b><br>
+        <input type="checkbox" style="font-size: 25px;"name="Science" ><b>Science</b><br>
+        <input type="checkbox" style="font-size: 25px;"name="Arts"><b>Arts</b><br>
+        <br>
+        <label>Date of Birth:</label>
+        <input type="date" name="dob"  required>
+        <br>
+        <br>
+        <label>Password:</label>
+        <input type="password" name="password" placeholder="Enter your password" required>
+        <br>
+        <br>
+        <label>Select your mother tounge:</label>
+        <select style="font-size: 25px;">
+            <option>--Select any one language--</option>
+            <option>Hindi</option>
+            <option>Gujarati</option>
+            <option>English</option>
+        </select>
+        <br>
+        <br>
+        <hr>
+        <input type="submit">
+        <input type="reset">
+       
+    </form>
+
+    
+</body>
+</html>
